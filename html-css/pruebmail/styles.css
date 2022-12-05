@@ -1,0 +1,136 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 25px;
+  list-style: none;
+  
+  
+}
+
+
+.blue-eye {
+    float: right;
+    color: #007c89;
+    font-weight: bold;
+    /* width: 500px;*/
+  }
+  .blue {
+    color: #007c89;
+  }
+  
+
+
+.logo {
+  float: left;
+  background: white;
+  padding: 50px;
+  
+}
+
+.logo-mono{
+    width: 200px;
+}
+
+.content {
+  display: inline-block;
+  width: 40%;
+}
+
+.content-tittle {
+  padding-top: 40px;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+
+h2 {
+  padding-top: 10px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+
+input {
+    height: 30px;
+  }
+
+
+
+.list1 {
+  width: 30%;
+  float: left;
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: small;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  
+  
+}
+.list2 {
+  width: calc(70%-30px);
+  float: right;
+  padding-top: 10px;
+  padding-right: 30px;
+  font-size: small;
+  padding-top: 30px;
+}
+
+
+.eye{
+    list-style: url(./imagenes/ver.png);
+    
+}
+
+li::before {
+
+    /* Unicode for a bullet */
+    content: "\2022";
+      
+    /* Styles for Indentation*/
+    color: #007c89; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+
+.send {
+  float: left;
+  padding-top: 15px;
+}
+
+.sendb{
+    padding: 0.6em 3.4em;
+    color: grey;
+    background-color: white;
+    border-radius: 5px 5px;
+    border: 1px solid #d0d0d0;
+    margin-left: 20px;
+}
+
+.check {
+  float: left;
+  padding-left: 40px;
+  padding-top: 15px;
+  
+}
+.texto {
+  float: left;
+  padding-left: 20px;
+  width: 50%;
+  padding-top: 15px;
+}
+
+
+.recurso {
+  clear: both;
+}
+
+.terms {
+  padding-top: 30px; 
+}
